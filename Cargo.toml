@@ -1,0 +1,14 @@
+[package]
+name = "dace_tests"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dace = { git = "https://github.com/YanghuiWu/dace"}
+tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
+
+#[dev-dependencies]
+#list_serializable = { path = "../list_serializable" }
+
