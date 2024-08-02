@@ -1315,7 +1315,7 @@ mod tests {
         assert_eq!(syr2d(1024, 1024).node_count(), 12);
         syr2d(1024, 1024).print_structure(0);
     }
-    
+
     #[test]
     fn _2mm_test() {
         assert_eq!(_2mm(1024, 1024, 1024, 1024).node_count(), 15);
